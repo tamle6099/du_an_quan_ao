@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/styles.css">
+    <script src="https:kit.fontawesome.com/1147679ae7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+</head>
+<body>
+    <section class="slider">
+        <div class="slider-content">
+            <div class="slider-content-next">
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-right"></i>
+            </div>
+            <div class="slider-content-item row active">
+                <div class="slider-content-left">
+                    <div class="slider-content-text">
+                        <h1>Cửa Hàng</h1>
+                        <p>31 Ba Đình Hà Nội</p>
+                        <button class="btn"><p>Mua Hàng</p><i class="fas fa-cart-arrow-down"></i></button>
+                    </div>
+                </div>
+               <div class="slider-content-right">
+                   <img src="./img/slider1.jpg" alt="">
+               </div>
+            </div>
+            <div class="slider-content-item row">
+                <div class="slider-content-left">
+                    <div class="slider-content-text">
+                        <h1>Cửa Hàng</h1>
+                        <p>31 Ba Đình 123</p>
+                        <button class="btn"><p>Mua Hàng</p><i class="fas fa-cart-arrow-down"></i></button>
+                    </div>
+                </div>
+               <div class="slider-content-right">
+                   <img src="./img/slider3.jpg" alt="">
+               </div>
+            </div>
+            <div class="slider-content-item row">
+                <div class="slider-content-left">
+                    <div class="slider-content-text">
+                        <h1>Cửa Hàng</h1>
+                        <p>31 Ba Đình Hà Nội</p>
+                        <button class="btn"><p>Mua Hàng</p><i class="fas fa-cart-arrow-down"></i></button>
+                    </div>
+                </div>
+               <div class="slider-content-right">
+                   <img src="./img/slider1.jpg" alt="">
+               </div>
+            </div>
+        </div>
+    </section>
+    <section class="produck">
+        <h1 class="tile-h1">San Pham</h1>
+        <div class="pro-items">
+            <h2 class="title-h2">AO Quan</h2>
+            <div class="produck-content owl-carousel owl-theme">
+                <div class="produck-content-item item">
+                    <img src="./img/hinh1.jpg " alt="">
+                </div>
+                <div class="produck-content-item item">
+                    <img src="./img/hinh2.jpg " alt="">
+                </div>
+                <div class="produck-content-item item">
+                    <img src="./img/hinh3.jpg " alt="">
+                </div>
+                <div class="produck-content-item item">
+                    <img src="./img/hinh4.jpg " alt="">
+                </div>
+                <div class="produck-content-item item">
+                    <img src="./img/hinh5.jpg " alt="">
+                </div>
+                <div class="produck-content-item item">
+                    <img src="./img/hinh6.jpg " alt="">
+                </div>
+                <div class="produck-content-item item">
+                    <img src="./img/hinh7.jpg " alt="">
+                </div>
+                <div class="produck-content-item item">
+                    <img src="./img/hinh8.jpg " alt="">
+                </div>
+                <div class="produck-content-item item">
+                    <img src="./img/hinh9.jpg " alt="">
+                </div>
+                <div class="produck-content-item item">
+                    <img src="./img/hinh10.jpg " alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+    </script>
+</body>
+</html>
